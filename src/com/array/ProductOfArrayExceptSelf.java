@@ -1,6 +1,5 @@
 package com.array;
 
-import java.util.Arrays;
 
 public class ProductOfArrayExceptSelf {
 
