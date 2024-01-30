@@ -1,7 +1,0 @@
-
-N
-java:S1854;"8Remove this useless assignment to local variable "text".(üÉÕ
-@	java:S1065"+Replace this use of System.out by a logger.(Á³÷»
-@	java:S1069"+Replace this use of System.out by a logger.(ªşÌ
-?
-java:S1481;")Remove this unused "text" local variable.(üÉÕ
