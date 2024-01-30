@@ -1,0 +1,20 @@
+
+
+java:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(µœÇíÿÿÿÿÿ8è³Õ¨1
+Š
+java:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(„ÚìÂ8é³Õ¨1
+Š
+java:S1319""mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(•¯Ä8é³Õ¨1
+Š
+java:S1319."mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(Šíøˆ8é³Õ¨1
+
+java:S13193"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(ÙÙ™—şÿÿÿÿ8é³Õ¨1
+Š
+java:S13198"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(Ò­éİ8é³Õ¨1
+
+java:S1319F"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(ãşÕÅúÿÿÿÿ8é³Õ¨1
+~
+java:S1488U"\Immediately return this expression instead of assigning it to the temporary variable "grid".(°ıÍ˜øÿÿÿÿ8ĞË”Õ¨1
+L	java:S106g"+Replace this use of System.out by a logger.(¹ıÀ¬úÿÿÿÿ8Š´Õ¨1
+F	java:S106i"+Replace this use of System.out by a logger.(úÓ™s8Š´Õ¨1
+L	java:S106k"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8‹´Õ¨1

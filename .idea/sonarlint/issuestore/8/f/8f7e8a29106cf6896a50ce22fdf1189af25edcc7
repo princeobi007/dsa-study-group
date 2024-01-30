@@ -1,0 +1,11 @@
+
+L	java:S106"+Replace this use of System.out by a logger.(åˆ½Ìúÿÿÿÿ8ÚÝË¾¥1
+L	java:S106"+Replace this use of System.out by a logger.(à„¸®ÿÿÿÿÿ8ÛÝË¾¥1
+G	java:S106"+Replace this use of System.out by a logger.(ˆú”þ8ÛÝË¾¥1
+L	java:S106"+Replace this use of System.out by a logger.(§¡ýªüÿÿÿÿ8ÜÝË¾¥1
+J
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8ÞÝË¾¥1
+L
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤þÿÿÿÿ8ßÝË¾¥1
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8ßÝË¾¥1
