@@ -31,16 +31,27 @@ The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit int
      */
 
     public int[] productExceptSelf(int[] nums) {
-        //find the product of all numbers in the array
-        int [] finalArray = new int[nums.length];
+        int n = nums.length;
+        int[] pre = new int[n]; // product before i from the the left to right
+        int[] post = new int[n]; // product before i from the the right to left
+        int[] result = new int[n]; // product before, multiply by product after => pre[i] * post[i];
 
-        int product = Arrays.stream(nums)
-                .reduce(1, (a, b) -> a * b);
-
-        for(int i = 0; i < nums.length; i++){
-            finalArray[i] = product/nums[i];
+        int product = 1;
+        for (int i = 0; i < nums.length; i++) {
+            pre[i] = product;
+            product = product * nums[i];
         }
 
-        return finalArray;
+        product = 1;
+        for (int i = nums.length - 1; i >= 0; i--) {
+            post[i] = product;
+            product = product * nums[i];
+        }
+
+        for (int i = 0; i < nums.length; i++) {
+            result[i] = pre[i] * post[i];
+        }
+        return result;
+
     }
 }
